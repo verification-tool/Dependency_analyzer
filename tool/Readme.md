@@ -64,12 +64,15 @@ TOOL USAGE:
 ### Step 2: View Syntactic Analysis
 
 ![Select Algorithm](images/image1.png)
+### Step 3: Select an algorithm between interval and polyhedra by clicking on semantics 
 
-### Step 3: View Semantic(Domain Of Interval) Analysis
+![Select Algorithm](images/image5.png)
+
+### Step 4: View Semantic(Domain Of Interval) Analysis
 
 ![Syntactic Result](images/image3.png)
 
-### Step 4: View Semantic (Polyhedra) Analysis
+### Step 5: View Semantic (Polyhedra) Analysis
 
 ![Polyhedra Result](images/image4.png)
 
