@@ -53,18 +53,26 @@ git clone https://github.com/yourusername/sql-dependencies-analyzer.git
 cd sql-dependencies-analyzer
 # Add installation steps
 ```
+-----------------------------------------------------------------------------
+TOOL USAGE:
+## Tool Usage
 
-### Usage
+### Step 1: Upload Input & DB File & algorithm
 
-```bash
-# Add usage examples
-```
+![Upload Files](images/image1.png)
 
-## Examples
+### Step 2: View Syntactic Analysis
 
-The `images/` directory contains visualizations of analysis results. Here are descriptions of some key outputs:
+![Select Algorithm](images/image2.png)
 
-[Brief description of what the images show]
+### Step 3: View Semantic(Domain Of Interval) Analysis
+
+![Syntactic Result](images/image3.png)
+
+### Step 4: View Semantic (Polyhedra) Analysis
+
+![Polyhedra Result](images/image4.png)
+
 
 ## Configuration
 
