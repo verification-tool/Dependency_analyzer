@@ -59,22 +59,24 @@ TOOL USAGE:
 
 ### Step 1: Upload Input & DB File & algorithm
 
-![Upload Files](images/image2.png)
+<img src="images/image2.png" alt="Upload Files" width="500"/>
 
 ### Step 2: View Syntactic Analysis
 
-![Select Algorithm](images/image1.png)
+<img src="images/image1.png" alt="Syntactic Analysis" width="500"/>
+
 ### Step 3: Select an algorithm between interval and polyhedra by clicking on semantics 
 
-![Select Algorithm](images/image5.png)
+<img src="images/image5.png" alt="Select Algorithm" width="500"/>
 
 ### Step 4: View Semantic(Domain Of Interval) Analysis
 
-![Syntactic Result](images/image3.png)
+<img src="images/image3.png" alt="DOI Analysis" width="500"/>
 
 ### Step 5: View Semantic (Polyhedra) Analysis
 
-![Polyhedra Result](images/image4.png)
+<img src="images/image4.png" alt="Polyhedra Result" width="500"/>
+
 
 
 ## Configuration
