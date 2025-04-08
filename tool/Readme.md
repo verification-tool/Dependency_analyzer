@@ -102,3 +102,5 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 6. F. Logozzo. Class invariants as abstract interpretation of trace semantics. Computer Languages, Systems & Structures, Volume 35, pages 100–142, 2003.
 
 
+
+THANK YOU...
