@@ -838,7 +838,8 @@ def main(input_file_path, database_file_path):
     if not connection:
         buffer_print("Failed to connect to the database.")
         return "\n".join(output_buffer)
-
+    # Step 8: Metrics and comparison
+    start_time = time.time()
     try:
         input_file = input_file_path
         sql_statements, line_numbers = extract_sql_statements(input_file)
@@ -875,8 +876,6 @@ def main(input_file_path, database_file_path):
             copy.deepcopy(matrix), modified_intervals, true_intervals, parsed_results
         )
 
-        # Step 8: Metrics and comparison
-        start_time = time.time()
 
         initial_np = np.array(initial_matrix)
         updated_np = np.array(updated_matrix)
