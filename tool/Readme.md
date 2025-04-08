@@ -54,8 +54,8 @@ cd sql-dependencies-analyzer
 # Add installation steps
 ```
 -----------------------------------------------------------------------------
-TOOL USAGE:
-## Tool Usage
+
+## TOOL USAGE:
 
 ### Step 1: Upload Input & DB File 
 
