@@ -57,7 +57,7 @@ cd sql-dependencies-analyzer
 TOOL USAGE:
 ## Tool Usage
 
-### Step 1: Upload Input & DB File & algorithm
+### Step 1: Upload Input & DB File 
 
 <img src="images/image2.png" alt="Upload Files" width="500"/>
 
