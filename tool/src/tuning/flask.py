@@ -1,8 +1,8 @@
 from flask import Flask, render_template, request, flash, redirect, url_for
 import os
-from Dependency1 import main as main1
-from Dependency2 import main as main2
-from Dependency3 import main as main3
+from syntax import main as main1
+from do1 import main as main2
+from poly import main as main3
 
 app = Flask(__name__)
 app.secret_key = os.urandom(24)  # Added secret key for flash messages
@@ -72,7 +72,7 @@ def index():
                 elif algorithm == 'semantic':
                     # Just show the semantic options
                     show_semantics = True
-                elif algorithm == 'domain':
+                elif algorithm == 'domain of interval':
                     result = main2(input_path, db_path)
                 elif algorithm == 'polyhedra':
                     result = main3(input_path, db_path)
