@@ -59,11 +59,11 @@ TOOL USAGE:
 
 ### Step 1: Upload Input & DB File & algorithm
 
-![Upload Files](images/image1.png)
+![Upload Files](images/image2.png)
 
 ### Step 2: View Syntactic Analysis
 
-![Select Algorithm](images/image2.png)
+![Select Algorithm](images/image1.png)
 
 ### Step 3: View Semantic(Domain Of Interval) Analysis
 
@@ -82,10 +82,18 @@ The `tuning/` directory contains parameters for configuring and optimizing the a
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
+## References
 
-[Specify license]
+1. P. Cousot and R. Cousot. Abstract interpretation: a unified lattice model for static analysis of programs by construction or approximation of fixpoints. Presented at the Symposium on Principles of Programming Languages (POPL), ACM Press, pages 81–92, 1977.
 
-## Acknowledgements
+2. D. Willmor, S. M. Embury, and J. Shao. Program slicing in the presence of a database state. In Proceedings of the 20th International Conference on Software Maintenance, pages 448–452, 2004.
 
-[Any acknowledgements]
+3. I. Mastroeni and D. Zanardini. Data dependencies and program slicing: from syntax to abstract semantics. In Proceedings of the ACM Symposium on Partial Evaluation and Semantics-Based Program Manipulation (PEPM), pages 125–134, 2008.
+
+4. R. Halder and A. Cortesi. Abstract interpretation of database query languages. Computer Languages, Systems & Structures, Volume 38, pages 123–157, 2012.
+
+5. P. Cousot and N. Halbwachs. Automatic discovery of linear restraints among variables of a program. In Proceedings of the Symposium on Principles of Programming Languages (POPL), pages 84–96, 1978.
+
+6. F. Logozzo. Class invariants as abstract interpretation of trace semantics. Computer Languages, Systems & Structures, Volume 35, pages 100–142, 2003.
+
+
