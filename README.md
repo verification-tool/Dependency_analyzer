@@ -1,4 +1,4 @@
-# SQL Dependencies Analyzer
+# DepAnalyzer
 
 A comprehensive tool for analyzing dependencies in SQL statements using both syntactic and semantic approaches.
 
