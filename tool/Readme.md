@@ -75,7 +75,7 @@ cd sql-dependencies-analyzer
 
 <img src="images/image3.png" alt="DOI Analysis" width="500"/>
 
-### Step 5: View Semantic (Polyhedra) Analysis
+### Step 5: View Semantic (Octagon/Polyhedra) Analysis
 
 <img src="images/image4.png" alt="Polyhedra Result" width="500"/>
 
