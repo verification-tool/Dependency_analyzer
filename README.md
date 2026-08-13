@@ -8,6 +8,7 @@ This project implements algorithms for detecting and analyzing dependencies in S
 - **Syntactic Analysis**: Analyzing the structure and grammar of SQL statements
 - **Semantic Analysis**: Analyzing the meaning and behavior of SQL statements, further divided into:
   - Domain of Interval Analysis
+  - Octagon Analysis
   - Polyhedra Analysis
 
 ## Repository Structure
@@ -17,6 +18,7 @@ This project implements algorithms for detecting and analyzing dependencies in S
 ├── proformat/        # Code for preprocessing and formatting SQL statements
 ├── syntax/           # Implementation of syntactic dependency analysis
 ├── interval/         # Implementation of domain of interval analysis
+├── octagon/          # Implementation of octagon analysis
 ├── polyhedra/        # Implementation of polyhedra analysis
 ├── tuning/           # Parameters and configurations for optimizing algorithms
 └── images/           # Output visualizations and result examples
@@ -36,7 +38,7 @@ Semantic analysis examines the meaning and behavior of SQL statements, consideri
 
 This algorithm analyzes numerical constraints and relationships in SQL statements by tracking intervals of possible values. It helps identify implicit dependencies that may not be apparent from syntax alone.
 
-#### Polyhedra Analysis
+#### Octagon and Polyhedra Analysis
 
 A more sophisticated semantic approach that models query constraints as polyhedra (geometric objects with flat sides) in multi-dimensional space. This allows for precise dependency analysis even in complex query conditions.
 
